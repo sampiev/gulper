@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'TTFors-Bold';
+  src: local('TTFors-Bold'), url('../fonts/TTFors-Bold.woff2') format('woff2'),
+    url('../fonts/TTFors-Bold.otf') format('Opentype'),
+    url('../fonts/TTFors-Bold.ttf') format('Truetype');
+  font-style: bold;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'TTFors-Bold', sans-serif;
+  line-height: 180%;
+  font-weight: 400;
+  background: #f8f5ef;
+  color: #27704d;
+  font-size: 18px;
+  line-height: 32.4px;
+}

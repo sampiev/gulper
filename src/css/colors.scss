@@ -1,0 +1,29 @@
+:root {
+    --color-primary-green: #27704D;
+    --color-secondary-light-green: #B6D55A;
+    --color-green-text: #27704D;
+    --color-white: #ffffff;
+    --color-black: #000000;
+}
+
+
+
+.svg-green {
+    fill: var(--color-primary-green);
+}
+
+.svg-green-light {
+    fill: var(--color-secondary-light-green);
+}
+
+.svg-stroke-white {
+    stroke: var(--color-white);
+}
+
+.background-white {
+    background: var(--color-white);
+}
+
+.background-green {
+    background: var(--color-primary-green);
+}
